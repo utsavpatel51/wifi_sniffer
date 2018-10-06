@@ -156,7 +156,7 @@ int main()
     logfile=fopen("log.txt","w");
     if(logfile==NULL) 
     {
-        printf("Unable to create file.");
+        printf("Unable to create file....");
     }
     pcap_loop(handle , -1 , process_packet , NULL);
      
