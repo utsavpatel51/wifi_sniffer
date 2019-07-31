@@ -1,6 +1,6 @@
 # wifi_sniffer(802.11 frame)
 
-So this is a wifi sniffer that sniff your data or packet of layer 2,3,4
+So this is a wifi sniffer that capture your data or packet of layer 2,3,4
 
 so in layer 2 we get frame control filed,3 address filed.
 In frame control we get type & subtype of frame and all other filed
